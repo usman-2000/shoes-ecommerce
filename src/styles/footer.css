@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+}
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-top h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  /* identical to box height, or 140% */
+
+  text-align: center;
+
+  /* Dark */
+
+  color: #0a142f;
+}
+
+.footer-top p {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  text-align: center;
+
+  color: #000000;
+
+  opacity: 0.8;
+  margin-bottom: 5rem;
+}
+
+.footer-top hr {
+  /* height: 5px; */
+  width: 80vw;
+  margin: 4rem 3rem;
+  background: #0f528b;
+  opacity: 0.1;
+}
+.social-icon img {
+  width: 30px;
+  margin: 2rem;
+}
