@@ -197,13 +197,17 @@ li {
   }
 
   .mobile-menu-link {
-    background-color: #282c34;
-    border-top: 2px solid #61dafb;
+    background-color: #fdc2ab;
+    border-top: 12px solid black;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    height: 20rem;
+
+    border-bottom: 12px solid black;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 30rem;
     display: grid;
-    grid-column: 1/6;
+    grid-column: 0/5;
     align-items: center;
     padding-left: 3rem;
     transition: all 20s linear;

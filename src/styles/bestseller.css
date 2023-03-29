@@ -8,12 +8,13 @@
   background-repeat: no-repeat;
   background-position: 0px center;
   background-size: 250px 350px;
+  margin-top: 10rem;
 }
 .bestSeller {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 40%;
 }
 .products {
@@ -28,10 +29,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 573px;
-  height: 57px;
-  left: 94px;
-  top: 2633px;
 
   font-family: "Playfair Display";
   font-style: normal;
@@ -43,4 +40,44 @@
   letter-spacing: 0.01em;
 
   color: #000000;
+}
+
+@media (max-width: 998px) {
+  #bestSellerHeading {
+    font-size: 45px !important;
+  }
+  .bestSeller {
+    width: 35% !important;
+  }
+}
+
+@media (max-width: 798px) {
+  #bestSellerHeading {
+    font-size: 35px !important;
+  }
+  .bestSeller {
+    width: 35% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  #bestSellerHeading {
+    font-size: 45px !important;
+  }
+  .bestSeller {
+    width: 100% !important;
+  }
+  .sellerContainer {
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+  }
+  .products {
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
 }

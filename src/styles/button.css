@@ -41,3 +41,28 @@
   cursor: pointer;
   border: 2px solid #fdcdb5;
 }
+
+@media (max-width: 998px) {
+  .btn {
+    display: block;
+    height: 40px;
+    width: 184px;
+    background-color: #fdcdb5;
+    color: white;
+    border: 2px solid #fdcdb5;
+    border-radius: 12px;
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 798px) {
+  .btn {
+    display: block;
+    height: 40px;
+    width: 144px;
+    background-color: #fdcdb5;
+    color: white;
+    border: 2px solid #fdcdb5;
+    border-radius: 12px;
+    font-size: 1.4rem;
+  }
+}

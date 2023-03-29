@@ -53,3 +53,16 @@
   width: 30px;
   margin: 2rem;
 }
+
+@media (max-width: 550px) {
+  .footer-top h1 {
+    font-weight: 700;
+    font-size: 30px;
+    width: 90%;
+  }
+  .footer-top p {
+    font-weight: 400;
+    font-size: 13px;
+    width: 85%;
+  }
+}
